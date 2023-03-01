@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Practice HTML</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+
+    *{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+    }
+    body{
+      background:#eee;
+    }
+
+    .wrapper{
+      max-width: 350px;
+      margin: 60px auto;
+      padding:30px 20px;
+      background: #fff;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 7px;
+    }
+    h1{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    form{
+      margin: auto;
+    }
+
+    form input{
+      display: block;
+      width: 100%;
+      padding:7px;
+      border:none;
+      outline: none;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      background: #eee;
+      border:1px solid gray;
+    }
+
+    form p{
+      text-align: right;
+      margin-bottom: 10px;
+    }
+
+    form p a{
+      color: #000;
+      text-decoration: none;
+    }
+
+    button{
+      width: 100%;
+      padding:7px;
+      outline:none;
+      border:none;
+      border:1px solid #000;
+      font-size: 16px;
+      color:#eee;
+      background:#000;
+      border-radius:7px;
+    }
+    button:hover{
+      color: #000;
+      transition: 1.5s;
+      background:transparent;
+    }
+    .or{
+      text-align: center;
+      margin:10px 0 20px 0;
+      text-transform: uppercase;
+    }
+
+    .icons{
+      margin-top: 10px;
+    }
+
+    .icons i{
+      width: 50px;
+      height: 50px;
+      padding: 13.5px;
+      margin-left: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.2rem;
+      text-align: center;
+      background:rgb(214, 214, 214);
+    }
+
+
+   
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #333;
+      overflow: hidden;
+    }
+
+    li{
+      float:left;
+    }
+
+    li a{
+      display:inline-block;
+      color:white;
+      padding:16px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    li a:hover{
+      background:black;
+      color:white;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Login</h1>
+    <form action="#">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+      <p>
+        <a href="#">Forgot Password?</a>
+      </p>
+        <button type="button">Login</button>
+    </form>
+
+  <p class="or">
+    ----------or----------
+  </p>
+  <p>
+    Login using the following:
+  </p>
+  <div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-google"></i>
+  </div>
+  </div>
+
+
+<!--  <h1>HTML Javascript!</h1><br>
+  <button type="button"onclick="document.getElementById('try').innerHTML = Date()">Click me to see date and time</button><br><br>
+  <p id="try">Hello World !</p><br><br
+-->
+<!-- <ul>
+    <li>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contacts</a>
+      <a href="#">Services</a>
+    </li>
+    </ul
+  -->
+
+
+</body>
+</html>
